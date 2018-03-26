@@ -1,0 +1,76 @@
+.blockCenter > * {
+  display: block;
+  margin: 20px auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fira Sans', sans-serif;
+  background: linear-gradient(to bottom right, #DAEAEF, #272F32);
+}
+.currentCard {
+  background-color: #9DBDC6;
+  padding: 5px 0;
+  margin: 0 auto;
+  width: 300px;
+  box-shadow: 3px 3px 2px;
+  border-radius: 5px;
+}
+.currentContainer {
+  margin: 20px auto;
+  padding: 1px 0;
+}
+.hide {
+  display: none;
+}
+.historyAlbum{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 5px;
+}
+.historyContainer {
+  width: 85%;
+  margin: 20px auto;
+  padding-bottom: 10px;
+  background-color: #9DBDC6;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.historyInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 10px;
+}
+.historyItem {
+  display: flex;
+  padding: 5px 2px;
+  margin: 5px 0;
+  box-shadow: 0px 3px 1px;
+  background-color: #88a3ab;
+}
+.header {
+  font-size: 28px; 
+  font-family: 'Roboto', sans-serif;
+}
+.logo {
+  padding: 5px;
+  border-radius: 5px;
+}
+.playStopButton {
+  text-align: center;
+}
+.songInfo {
+  text-align: center;
+  font-size: 24px;
+}
+.songInfo p {
+  margin: 10px 0;
+}
+.textCenter {
+  text-align: center;
+}
